@@ -6,7 +6,6 @@ RUN apt-get update && \
  apt-get install -y python-software-properties
 
 RUN apt-get update && \
- apt-get install -y build-essential -y &&
  apt-get install -y python-keystoneclient && \
  apt-get install -y python-swiftclient && \
  apt-get install -y python-novaclient && \
